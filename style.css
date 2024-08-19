@@ -1,0 +1,59 @@
+body {
+    color:white;
+    background: black;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 75px;
+}
+
+header {
+    border-bottom: solid 2px rgb(31, 53, 255, 0.623);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(74, 151, 252);
+}
+
+.chamada {
+    background: rgb(183, 15, 235);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.lista {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.listagem {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lista img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.lista img:hover {
+    opacity: 1.0;
+    border: 1px solid blue;
+}
+
+.listagem h2 {
+    color: rgb(74, 151, 252);
+}
